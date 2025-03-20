@@ -1,5 +1,5 @@
 interface Person {
-  readonly id: number;
+  readonly id: number;  // 只读属性  仅初始化的时候可以赋值
   name: string;
   age?: number;
 }

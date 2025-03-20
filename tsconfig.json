@@ -1,0 +1,10 @@
+{
+  "files": ["test.ts", "test.d.ts"],   // 工程只会默认添加node_modules下的ts文件，所以需要手动指定需要编译的文件
+  // "include": []
+  "compilerOptions": {
+    "outDir": "./output",   // 编译好的文件输出目录
+    "module": "ESNext",
+    "target": "ES5",
+    "declaration": true,   //  是否生成声明文件
+  }
+}
